@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class ClassFirst {
 
     public void show(){
-        System.out.println("Hii Kirti, I'm ClassFirst...");
+        System.out.println("Hello Guys... I'm ClassFirst. Now you can start your project.");
     }
 }
