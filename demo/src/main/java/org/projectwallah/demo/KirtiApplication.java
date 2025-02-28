@@ -11,6 +11,6 @@ public class KirtiApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(KirtiApplication.class, args);
 		
 		ClassFirst cf = context.getBean(ClassFirst.class);
-		cf.show();
+		cf.methodFirst();
 	}
 }
