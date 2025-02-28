@@ -8,7 +8,6 @@ public class ClassFirst {
 
     
 //  field injection - Annotation is mandatory...
-//  not so better
 
     @Autowired
     private ClassSecond cs1;
@@ -20,7 +19,7 @@ public class ClassFirst {
     }
 
 //  constructor injection - default injection/no need to use @Autowired annotation...
-// better
+
     private ClassSecond cs2;
 
     public ClassFirst(ClassSecond cs2){
@@ -28,7 +27,7 @@ public class ClassFirst {
     }
 
 //  setter injection - Annotation is mandatory...
-// better
+
     private ClassSecond cs3;
     @Autowired
     public void setMethodThree(ClassSecond cs3){
